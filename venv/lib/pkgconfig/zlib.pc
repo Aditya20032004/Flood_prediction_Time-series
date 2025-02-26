@@ -1,0 +1,13 @@
+prefix=/home/arsenal/ml/Flood nvidia/Disaster Management/my_work/venv
+exec_prefix=/home/arsenal/ml/Flood nvidia/Disaster Management/my_work/venv
+libdir=/home/arsenal/ml/Flood nvidia/Disaster Management/my_work/venv/lib
+sharedlibdir=/home/arsenal/ml/Flood nvidia/Disaster Management/my_work/venv/lib
+includedir=/home/arsenal/ml/Flood nvidia/Disaster Management/my_work/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
